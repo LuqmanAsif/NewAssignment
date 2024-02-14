@@ -12,12 +12,17 @@
       {
         "name": "Electric_Facilities_Cached",
         "serverSite": "elec",
-        "category": [ "web" ],
+        "category": [
+          "web"
+        ],
         "deploy": true,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Electric" ],
+        "tags": [
+          "AppSuite",
+          "Electric"
+        ],
         "servicename": "Electric_Facilities_Cached",
         "foldername": "Web",
         "portalfoldername": "",
@@ -40,19 +45,22 @@
           "everyone": false,
           "org": false,
           "groups": []
-
         }
       },
-
       {
         "name": "Gas_Facilities_Cached",
         "serverSite": "gas",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Gas" ],
+        "tags": [
+          "AppSuite",
+          "Gas"
+        ],
         "servicename": "Gas_Facilities_Cached_test",
         "foldername": "Web",
         "portalfoldername": "",
@@ -75,18 +83,24 @@
           "everyone": false,
           "org": false,
           "groups": []
-
         }
       },
       {
         "name": "DigWithCautionViewOnly",
         "serverSite": "gas",
-        "category": [ "web", "DigWithCaution" ],
+        "category": [
+          "web",
+          "DigWithCaution"
+        ],
         "deploy": false,
-        "updateproperties": false,
+        "updateproperties": true,
         "updatesharing": false,
-        "updatecaching": false,
-        "tags": [ "Gas", "DigWithCautionViewOnly" ],
+        "updatecaching": true,
+        "tags": [
+          "Gas",
+          "DigWithCautionViewOnly",
+          " Gas"
+        ],
         "servicename": "DigWithCautionViewOnly",
         "foldername": "DigWithCaution",
         "portalfoldername": "",
@@ -109,18 +123,22 @@
           "everyone": true,
           "org": true,
           "groups": []
-
         }
       },
       {
         "name": "DigWithCautionMapper",
         "serverSite": "hostingServer",
-        "category": [ "DigWithCaution" ],
+        "category": [
+          "DigWithCaution"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "Gas", "DigWithCautionMapper" ],
+        "tags": [
+          "Gas",
+          "DigWithCautionMapper"
+        ],
         "servicename": "DigWithCautionMapper",
         "foldername": "DigWithCaution",
         "portalfoldername": "",
@@ -142,19 +160,25 @@
         "sharing": {
           "everyone": false,
           "org": false,
-          "groups": [ "Gas Projects Dig With Caution Mapper" ]
-
+          "groups": [
+            "Gas Projects Dig With Caution Mapper"
+          ]
         }
       },
       {
         "name": "DigWithCautionSupervisor",
         "serverSite": "gas",
-        "category": [ "DigWithCaution" ],
+        "category": [
+          "DigWithCaution"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "Gas", "DigWithCautionSupervisor" ],
+        "tags": [
+          "Gas",
+          "DigWithCautionSupervisor"
+        ],
         "servicename": "DigWithCautionSupervisor",
         "foldername": "DigWithCaution",
         "portalfoldername": "",
@@ -176,19 +200,25 @@
         "sharing": {
           "everyone": false,
           "org": false,
-          "groups": [ "Gas Projects Dig With Caution Supervisor" ]
-
+          "groups": [
+            "Gas Projects Dig With Caution Supervisor"
+          ]
         }
       },
       {
         "name": "Gas_Desktop_Editing_Mobile_TPK_GGASPRD_PB_AppSuiteweb",
         "serverSite": "gas",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Gas" ],
+        "tags": [
+          "AppSuite",
+          "Gas"
+        ],
         "servicename": "Gas_MS_Bronx",
         "foldername": "TPKs",
         "portalfoldername": "",
@@ -211,18 +241,22 @@
           "everyone": false,
           "org": false,
           "groups": []
-
         }
       },
       {
         "name": "Electric_MS_TPK_GELECPRD_PB_AppSuiteweb",
         "serverSite": "gas",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Electric" ],
+        "tags": [
+          "AppSuite",
+          "Electric"
+        ],
         "servicename": "Electric_MS_Bronx",
         "foldername": "TPKs",
         "portalfoldername": "",
@@ -245,18 +279,22 @@
           "everyone": false,
           "org": false,
           "groups": []
-
         }
       },
       {
         "name": "Electric_MS_TPK_GELECPRD_PB_AppSuiteweb",
         "serverSite": "elec",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Electric" ],
+        "tags": [
+          "AppSuite",
+          "Electric"
+        ],
         "servicename": "Electric_MS_Brooklyn",
         "foldername": "TPKs",
         "portalfoldername": "",
@@ -279,18 +317,22 @@
           "everyone": false,
           "org": false,
           "groups": []
-
         }
       },
       {
         "name": "Electric_MS_TPK_GELECPRD_PB_AppSuiteweb",
         "serverSite": "elec",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Electric" ],
+        "tags": [
+          "AppSuite",
+          "Electric"
+        ],
         "servicename": "Electric_MS_Manhattan",
         "foldername": "TPKs",
         "portalfoldername": "",
@@ -313,18 +355,22 @@
           "everyone": false,
           "org": false,
           "groups": []
-
         }
       },
       {
         "name": "Gas_Desktop_Editing_Mobile_TPK_GGASPRD_PB_AppSuiteweb",
         "serverSite": "gas",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Gas" ],
+        "tags": [
+          "AppSuite",
+          "Gas"
+        ],
         "servicename": "Gas_MS_Manhattan",
         "foldername": "TPKs",
         "portalfoldername": "",
@@ -347,18 +393,22 @@
           "everyone": false,
           "org": false,
           "groups": []
-
         }
       },
       {
         "name": "Electric_MS_TPK_GELECPRD_PB_AppSuiteweb",
         "serverSite": "elec",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Electric" ],
+        "tags": [
+          "AppSuite",
+          "Electric"
+        ],
         "servicename": "Electric_MS_Queens",
         "foldername": "TPKs",
         "portalfoldername": "",
@@ -381,18 +431,22 @@
           "everyone": false,
           "org": false,
           "groups": []
-
         }
       },
       {
         "name": "Gas_Desktop_Editing_Mobile_TPK_GGASPRD_PB_AppSuiteweb",
         "serverSite": "gas",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Gas" ],
+        "tags": [
+          "AppSuite",
+          "Gas"
+        ],
         "servicename": "Gas_MS_Queens",
         "foldername": "TPKs",
         "portalfoldername": "",
@@ -415,18 +469,22 @@
           "everyone": false,
           "org": false,
           "groups": []
-
         }
       },
       {
         "name": "Electric_MS_TPK_GELECPRD_PB_AppSuiteweb",
         "serverSite": "elec",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Electric" ],
+        "tags": [
+          "AppSuite",
+          "Electric"
+        ],
         "servicename": "Electric_MS_Westchester",
         "foldername": "TPKs",
         "portalfoldername": "",
@@ -449,18 +507,22 @@
           "everyone": false,
           "org": false,
           "groups": []
-
         }
       },
       {
         "name": "Gas_Desktop_Editing_Mobile_TPK_GGASPRD_PB_AppSuiteweb",
         "serverSite": "gas",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Gas" ],
+        "tags": [
+          "AppSuite",
+          "Gas"
+        ],
         "servicename": "Gas_MS_Westchester",
         "foldername": "TPKs",
         "portalfoldername": "",
@@ -483,18 +545,22 @@
           "everyone": false,
           "org": false,
           "groups": []
-
         }
       },
       {
         "name": "Electric_MS_Mobile_GELECPRD_PB_AppSuite",
         "serverSite": "elec",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Electric" ],
+        "tags": [
+          "AppSuite",
+          "Electric"
+        ],
         "servicename": "Electric_MS_Mobile",
         "foldername": "Mobile",
         "portalfoldername": "",
@@ -506,6 +572,10 @@
         "antialiasingMode": "None",
         "description": "Electric_MS_Mobile",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "Electric_MS_Mobile",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
@@ -518,12 +588,17 @@
       {
         "name": "Gas_Desktop_Editing_Mobile_GGASPRD_PB_AppSuite",
         "serverSite": "gas",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Gas" ],
+        "tags": [
+          "AppSuite",
+          "Gas"
+        ],
         "servicename": "Gas_MS_Mobile",
         "foldername": "Mobile",
         "portalfoldername": "",
@@ -535,6 +610,10 @@
         "antialiasingMode": "None",
         "description": "Gas facilities for offline replica mobile",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "Gas facilities for offline replica mobile",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
@@ -547,12 +626,17 @@
       {
         "name": "Gas_Desktop_Editing_Mobile_Online_Abandoned_GGASPRD_AppSuiteweb",
         "serverSite": "gas",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Gas" ],
+        "tags": [
+          "AppSuite",
+          "Gas"
+        ],
         "servicename": "Gas_MS_Mobile_Abandoned_Online",
         "foldername": "Mobile",
         "portalfoldername": "",
@@ -564,6 +648,10 @@
         "antialiasingMode": "None",
         "description": "Gas_MS_Mobile_Abandoned_Online",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "Gas_MS_Mobile_Abandoned_Online",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
@@ -576,12 +664,17 @@
       {
         "name": "Electric_MS_Mobile_Online_GELECPRD_PB_AppSuiteweb",
         "serverSite": "elec",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Electric" ],
+        "tags": [
+          "AppSuite",
+          "Electric"
+        ],
         "servicename": "Electric_MS_Mobile_Online",
         "foldername": "Mobile",
         "portalfoldername": "",
@@ -593,24 +686,38 @@
         "antialiasingMode": "Normal",
         "description": "Electric_MS_Mobile_Online",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "Electric_MS_Mobile_Online",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
         "sharing": {
           "everyone": false,
           "org": false,
-          "groups": [ "AppSuite Electric Redliner", "AppSuite Redlining Services", "Mobile Admin", "Mobile Viewer" ]
+          "groups": [
+            "AppSuite Electric Redliner",
+            "AppSuite Redlining Services",
+            "Mobile Admin",
+            "Mobile Viewer"
+          ]
         }
       },
       {
         "name": "Gas_Desktop_Editing_Mobile_Online_GGASPRD_PB_AppSuiteweb",
         "serverSite": "gas",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Electric" ],
+        "tags": [
+          "AppSuite",
+          "Electric"
+        ],
         "servicename": "Gas_MS_Mobile_Online",
         "foldername": "Mobile",
         "portalfoldername": "",
@@ -622,24 +729,38 @@
         "antialiasingMode": "Normal",
         "description": "Gas facility data for online Mobile use",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "Gas facility data for online Mobile use",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
         "sharing": {
           "everyone": false,
           "org": false,
-          "groups": [ "AppSuite Electric Redliner", "AppSuite Redlining Services", "Mobile Admin", "Mobile Viewer" ]
+          "groups": [
+            "AppSuite Electric Redliner",
+            "AppSuite Redlining Services",
+            "Mobile Admin",
+            "Mobile Viewer"
+          ]
         }
       },
       {
         "name": "Gas_Desktop_Editing_Mobile_With_Electric_Online_GGASPRD_PB_AppSuiteweb",
         "serverSite": "gas",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Electric" ],
+        "tags": [
+          "AppSuite",
+          "Electric"
+        ],
         "servicename": "Gas_MS_Mobile_With_Electric_Online",
         "foldername": "Mobile",
         "portalfoldername": "",
@@ -651,24 +772,38 @@
         "antialiasingMode": "Normal",
         "description": "Gas Multicommodity",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "Gas Multicommodity",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
         "sharing": {
           "everyone": false,
           "org": false,
-          "groups": [ "AppSuite Electric Redliner", "AppSuite Redlining Services", "Mobile Admin", "Mobile Viewer" ]
+          "groups": [
+            "AppSuite Electric Redliner",
+            "AppSuite Redlining Services",
+            "Mobile Admin",
+            "Mobile Viewer"
+          ]
         }
       },
       {
         "name": "GasGeneralMains_Mobile_Online_GGASPRD_PB_AppSuiteweb",
         "serverSite": "gas",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Electric" ],
+        "tags": [
+          "AppSuite",
+          "Electric"
+        ],
         "servicename": "GasGeneralMains_Mobile_Online",
         "foldername": "Mobile",
         "portalfoldername": "",
@@ -680,24 +815,38 @@
         "antialiasingMode": "Normal",
         "description": "GasGeneralMains_Mobile_Online",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "GasGeneralMains_Mobile_Online",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
         "sharing": {
           "everyone": false,
           "org": false,
-          "groups": [ "AppSuite Electric Redliner", "AppSuite Redlining Services", "Mobile Admin", "Mobile Viewer" ]
+          "groups": [
+            "AppSuite Electric Redliner",
+            "AppSuite Redlining Services",
+            "Mobile Admin",
+            "Mobile Viewer"
+          ]
         }
       },
       {
         "name": "Electric_MS_Mobile_Online_Integration_GELECPRD_PB_AppSuiteweb",
         "serverSite": "elec",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Electric" ],
+        "tags": [
+          "AppSuite",
+          "Electric"
+        ],
         "servicename": "Electric_MS_Mobile_Online_Integration",
         "foldername": "Mobile",
         "portalfoldername": "",
@@ -709,24 +858,38 @@
         "antialiasingMode": "Normal",
         "description": "Electric_MS_Mobile_Online_Integration",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "Electric_MS_Mobile_Online_Integration",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
         "sharing": {
           "everyone": false,
           "org": false,
-          "groups": [ "AppSuite Electric Redliner", "AppSuite Redlining Services", "Mobile Admin", "Mobile Viewer" ]
+          "groups": [
+            "AppSuite Electric Redliner",
+            "AppSuite Redlining Services",
+            "Mobile Admin",
+            "Mobile Viewer"
+          ]
         }
       },
       {
         "name": "MobileRegionBoundaries_GELECPRD_PB_AppSuiteweb",
         "serverSite": "elec",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Gas" ],
+        "tags": [
+          "AppSuite",
+          "Gas"
+        ],
         "servicename": "MobileRegionBoundaries_ELEC_PB_AppSuiteweb",
         "foldername": "Mobile",
         "portalfoldername": "",
@@ -738,24 +901,38 @@
         "antialiasingMode": "Normal",
         "description": "MobileRegionBoundaries_ELEC_PB_AppSuiteweb",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "MobileRegionBoundaries_ELEC_PB_AppSuiteweb",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
         "sharing": {
           "everyone": false,
           "org": false,
-          "groups": [ "Mobile Admin", "Mobile Analyst", "Mobile Redliner", "Mobile Viewer" ]
+          "groups": [
+            "Mobile Admin",
+            "Mobile Analyst",
+            "Mobile Redliner",
+            "Mobile Viewer"
+          ]
         }
       },
       {
         "name": "MobileRegionBoundaries_GGASPRD_PB_AppSuiteweb",
         "serverSite": "gas",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Electric" ],
+        "tags": [
+          "AppSuite",
+          "Electric"
+        ],
         "servicename": "MobileRegionBoundaries_GAS_AppSuiteweb",
         "foldername": "Mobile",
         "portalfoldername": "",
@@ -767,24 +944,38 @@
         "antialiasingMode": "Normal",
         "description": "MobileRegionBoundaries_GAS_AppSuiteweb",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "MobileRegionBoundaries_GAS_AppSuiteweb",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
         "sharing": {
           "everyone": false,
           "org": false,
-          "groups": [ "Mobile Admin", "Mobile Analyst", "Mobile Redliner", "Mobile Viewer" ]
+          "groups": [
+            "Mobile Admin",
+            "Mobile Analyst",
+            "Mobile Redliner",
+            "Mobile Viewer"
+          ]
         }
       },
       {
         "name": "Gas_Markup_GGASPRD_PB_AppSuite",
         "serverSite": "gas",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Electric" ],
+        "tags": [
+          "AppSuite",
+          "Electric"
+        ],
         "servicename": "GasMobileRedlines",
         "foldername": "MobileRedlines",
         "portalfoldername": "",
@@ -796,24 +987,38 @@
         "antialiasingMode": "Normal",
         "description": "Mobile Markup features for Gas",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "Mobile Markup features for Gas",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
         "sharing": {
           "everyone": false,
           "org": false,
-          "groups": [ "Mobile Admin", "Mobile Analyst", "Mobile Redliner", "Mobile Viewer" ]
+          "groups": [
+            "Mobile Admin",
+            "Mobile Analyst",
+            "Mobile Redliner",
+            "Mobile Viewer"
+          ]
         }
       },
       {
         "name": "Electric_Web_NoAnno",
         "serverSite": "elec",
-        "category": [ "web" ],
+        "category": [
+          "web"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Electric" ],
+        "tags": [
+          "AppSuite",
+          "Electric"
+        ],
         "servicename": "Electric_Web_NoAnno",
         "foldername": "web",
         "portalfoldername": "",
@@ -825,6 +1030,10 @@
         "antialiasingMode": "None",
         "description": "Electric_Web_NoAnno",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "Electric_Web_NoAnno",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
@@ -837,12 +1046,17 @@
       {
         "name": "Electric_Web_OnlyAnno",
         "serverSite": "elec",
-        "category": [ "web" ],
+        "category": [
+          "web"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Electric_Web_OnlyAnno" ],
+        "tags": [
+          "AppSuite",
+          "Electric_Web_OnlyAnno"
+        ],
         "servicename": "Electric_Web_OnlyAnno",
         "foldername": "web",
         "portalfoldername": "",
@@ -854,6 +1068,10 @@
         "antialiasingMode": "None",
         "description": "Electric_Web_OnlyAnno",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "Electric_Web_OnlyAnno",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
@@ -866,12 +1084,17 @@
       {
         "name": "Electric_Web_BW",
         "serverSite": "elec",
-        "category": [ "web" ],
+        "category": [
+          "web"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Electric_Web_BW" ],
+        "tags": [
+          "AppSuite",
+          "Electric_Web_BW"
+        ],
         "servicename": "Electric_Web_BW",
         "foldername": "web",
         "portalfoldername": "",
@@ -883,6 +1106,10 @@
         "antialiasingMode": "None",
         "description": "Electric_Web_BW",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "Electric_Web_BW",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
@@ -895,12 +1122,17 @@
       {
         "name": "GasGeneralMains_Web_OnlyAnno",
         "serverSite": "gas",
-        "category": [ "web" ],
+        "category": [
+          "web"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "GasGeneralMains_Web_OnlyAnno" ],
+        "tags": [
+          "AppSuite",
+          "GasGeneralMains_Web_OnlyAnno"
+        ],
         "servicename": "GasGeneralMains_Web_OnlyAnno",
         "foldername": "web",
         "portalfoldername": "",
@@ -912,6 +1144,10 @@
         "antialiasingMode": "None",
         "description": "GasGeneralMains_Web_OnlyAnno",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "GasGeneralMains_Web_OnlyAnno",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
@@ -924,12 +1160,17 @@
       {
         "name": "GasGeneralMains_Web_NoAnno",
         "serverSite": "gas",
-        "category": [ "web" ],
+        "category": [
+          "web"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "GasGeneralMains_Web_NoAnno" ],
+        "tags": [
+          "AppSuite",
+          "GasGeneralMains_Web_NoAnno"
+        ],
         "servicename": "GasGeneralMains_Web_NoAnno",
         "foldername": "web",
         "portalfoldername": "",
@@ -941,6 +1182,10 @@
         "antialiasingMode": "None",
         "description": "GasGeneralMains_Web_NoAnno",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "GasGeneralMains_Web_NoAnno",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
@@ -953,12 +1198,17 @@
       {
         "name": "companyNameAbbr_Public_landmap_Black_2263",
         "serverSite": "landmap",
-        "category": [ "web" ],
+        "category": [
+          "web"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "companyNameAbbr_Public_landmap_Black_2263" ],
+        "tags": [
+          "AppSuite",
+          "companyNameAbbr_Public_landmap_Black_2263"
+        ],
         "servicename": "companyNameAbbr_Public_landmap_Black_2263",
         "foldername": "landmap",
         "portalfoldername": "",
@@ -986,12 +1236,18 @@
       {
         "name": "companyNameAbbr_Public_landmap_Black_AppSuiteweb",
         "serverSite": "landmap",
-        "category": [ "web", "mobile" ],
+        "category": [
+          "web",
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "companyNameAbbr_Public_landmap_Black" ],
+        "tags": [
+          "AppSuite",
+          "companyNameAbbr_Public_landmap_Black"
+        ],
         "servicename": "companyNameAbbr_Public_landmap_Black",
         "foldername": "landmap",
         "portalfoldername": "",
@@ -1019,12 +1275,18 @@
       {
         "name": "companyNameAbbr_Public_landmap_White_AppSuiteweb",
         "serverSite": "landmap",
-        "category": [ "web", "mobile" ],
+        "category": [
+          "web",
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "companyNameAbbr_Public_landmap_White" ],
+        "tags": [
+          "AppSuite",
+          "companyNameAbbr_Public_landmap_White"
+        ],
         "servicename": "companyNameAbbr_Public_landmap_White",
         "foldername": "landmap",
         "portalfoldername": "",
@@ -1052,12 +1314,18 @@
       {
         "name": "companyNameAbbr_GMM_landmap_White_AppSuiteweb",
         "serverSite": "landmap",
-        "category": [ "web", "mobile" ],
+        "category": [
+          "web",
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "companyNameAbbr_GMM_landmap_White_AppSuiteweb" ],
+        "tags": [
+          "AppSuite",
+          "companyNameAbbr_GMM_landmap_White_AppSuiteweb"
+        ],
         "servicename": "companyNameAbbr_GMM_landmap_White",
         "foldername": "landmap",
         "portalfoldername": "",
@@ -1085,12 +1353,18 @@
       {
         "name": "companyNameAbbr_GMM_landmap_Black_AppSuiteweb",
         "serverSite": "landmap",
-        "category": [ "web", "mobile" ],
+        "category": [
+          "web",
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "companyNameAbbr_GMM_landmap_Black_AppSuiteweb" ],
+        "tags": [
+          "AppSuite",
+          "companyNameAbbr_GMM_landmap_Black_AppSuiteweb"
+        ],
         "servicename": "companyNameAbbr_GMM_landmap_Black",
         "foldername": "landmap",
         "portalfoldername": "",
@@ -1118,12 +1392,17 @@
       {
         "name": "companyNameAbbr_Public_landmap_White_2263",
         "serverSite": "landmap",
-        "category": [ "web" ],
+        "category": [
+          "web"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "companyNameAbbr_Public_landmap_White_2263" ],
+        "tags": [
+          "AppSuite",
+          "companyNameAbbr_Public_landmap_White_2263"
+        ],
         "servicename": "companyNameAbbr_Public_landmap_White_2263",
         "foldername": "landmap",
         "portalfoldername": "",
@@ -1151,12 +1430,17 @@
       {
         "name": "Multi_Web_Gas",
         "serverSite": "elec",
-        "category": [ "web" ],
+        "category": [
+          "web"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Multi_Web_Gas" ],
+        "tags": [
+          "AppSuite",
+          "Multi_Web_Gas"
+        ],
         "servicename": "Multi_Web_Gas",
         "foldername": "web",
         "portalfoldername": "",
@@ -1168,6 +1452,10 @@
         "antialiasingMode": "None",
         "description": "Multi_Web_Gas",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "Multi_Web_Gas",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
@@ -1180,12 +1468,17 @@
       {
         "name": "Gas_Facilities",
         "serverSite": "gas",
-        "category": [ "web" ],
+        "category": [
+          "web"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Gas" ],
+        "tags": [
+          "AppSuite",
+          "Gas"
+        ],
         "servicename": "Gas_Facilities",
         "foldername": "web",
         "portalfoldername": "",
@@ -1197,6 +1490,10 @@
         "antialiasingMode": "None",
         "description": "Gas_Facilities",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "Gas_Facilities",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
@@ -1209,12 +1506,17 @@
       {
         "name": "Gas_Annotation",
         "serverSite": "gas",
-        "category": [ "web" ],
+        "category": [
+          "web"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Gas" ],
+        "tags": [
+          "AppSuite",
+          "Gas"
+        ],
         "servicename": "Gas_Annotation",
         "foldername": "web",
         "portalfoldername": "",
@@ -1226,6 +1528,10 @@
         "antialiasingMode": "None",
         "description": "Gas_Annotation",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "Gas_Annotation",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
@@ -1238,12 +1544,17 @@
       {
         "name": "Electric_Secondary",
         "serverSite": "gas",
-        "category": [ "web" ],
+        "category": [
+          "web"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Gas" ],
+        "tags": [
+          "AppSuite",
+          "Gas"
+        ],
         "servicename": "Electric_Secondary",
         "foldername": "web",
         "portalfoldername": "",
@@ -1255,6 +1566,10 @@
         "antialiasingMode": "None",
         "description": "Electric_Secondary",
         "cached": false,
+        "tile_origin": null,
+        "num_of_scales": null,
+        "scales": null,
+        "predefined_tiling_scheme": null,
         "summary": "Electric_Secondary",
         "licenseInfo": "Authorized companyName AppSuite Application Users Only.",
         "accessInformation": "companyName",
@@ -1267,12 +1582,18 @@
       {
         "name": "Electric_Markup_GELECPRD_PB_AppSuite",
         "serverSite": "elec",
-        "category": [ "mobile" ],
+        "category": [
+          "mobile"
+        ],
         "deploy": false,
         "updateproperties": false,
         "updatesharing": false,
         "updatecaching": false,
-        "tags": [ "AppSuite", "Markup", "Electric" ],
+        "tags": [
+          "AppSuite",
+          "Markup",
+          "Electric"
+        ],
         "servicename": "ElectricMobileRedlines",
         "foldername": "MobileRedlines",
         "portalfoldername": "",
@@ -1294,7 +1615,14 @@
         "sharing": {
           "everyone": true,
           "org": true,
-          "groups": [ "Mobile Admin", "Mobile Analyst", "Mobile Redliner", "Mobile Viewer", "AppSuite Redlining Services", "AppSuite Electric Redliner" ]
+          "groups": [
+            "Mobile Admin",
+            "Mobile Analyst",
+            "Mobile Redliner",
+            "Mobile Viewer",
+            "AppSuite Redlining Services",
+            "AppSuite Electric Redliner"
+          ]
         }
       }
     ],
@@ -1345,7 +1673,6 @@
         "deploy": false
       }
     ]
-
   },
   "environments": {
     "UAT": {
@@ -1355,15 +1682,12 @@
       "LOADBALANCER": "gutweba1.companyName.net",
       "portalServer": "gutweba1.companyName.net",
       "AGSserverName": "gutweba1.companyName.net",
-      "geocodingServer": "https://gutweba1.companyName.net/AppSuite/rest/services/Locator/companyNameAbbr_Geocoder/GeocodeServer",
-      "webAdaptorPortal": "portal",
       "serverSite": {
         "elec": {
           "webAdaptorserver": "AppSuite",
           "agsConnection": "GUATWebadaptor_Server.ags"
         },
         "hostingServer": {
-
           "webAdaptorserver": "AppSuite",
           "agsConnection": "GUATWebadaptor_Server.ags"
         },
@@ -1376,9 +1700,18 @@
           "agsConnection": "GUATWebadaptor_Server.ags"
         }
       },
-      "dataSources": [ "GGASUAT_PB_AppSuiteweb.sde", "GGASUAT_PB_AppSuite.sde", "GELECUAT_PB_AppSuiteweb.sde", "GELECUAT_PB_AppSuite.sde", "GELECUAT_PB_sde.sde", "GGASUAT_PB_sde.sde", "GISLNDUT_AppSuiteweb.sde", "GGASUAT_ED_gisdwcro.sde", "GGASUAT_ED_gisdwc.sde" ],
+      "dataSources": [
+        "GGASUAT_PB_AppSuiteweb.sde",
+        "GGASUAT_PB_AppSuite.sde",
+        "GELECUAT_PB_AppSuiteweb.sde",
+        "GELECUAT_PB_AppSuite.sde",
+        "GELECUAT_PB_sde.sde",
+        "GGASUAT_PB_sde.sde",
+        "GISLNDUT_AppSuiteweb.sde",
+        "GGASUAT_ED_gisdwcro.sde",
+        "GGASUAT_ED_gisdwc.sde"
+      ],
       "AppSuiteSERVER": "gutafmw1"
-
     },
     "PPD": {
       "GCXAppPath": "\\\\gppafmw2\\d$\\Program Files (x86)\\Schneider Electric\\AppSuite Web\\Default\\REST Elements\\Sites",
@@ -1387,15 +1720,12 @@
       "LOADBALANCER": "gppwebadaptor.companyName.net",
       "portalServer": "gppwebadaptor.companyName.net",
       "AGSserverName": "gppwebadaptor.companyName.net",
-      "geocodingServer": "https://gppwebadaptor.companyName.net/server/rest/services/Locator/companyNameAbbr_Geocoder/GeocodeServer",
-      "webAdaptorPortal": "portal",
       "serverSite": {
         "elec": {
           "webAdaptorserver": "AppSuite",
           "agsConnection": "GPPWebadaptor_ELEC.ags"
         },
         "hostingServer": {
-
           "webAdaptorserver": "server",
           "agsConnection": "GPPWebadaptor_SERVER.ags"
         },
@@ -1408,9 +1738,17 @@
           "agsConnection": "GPPWebadaptor_GAS.ags"
         }
       },
-      "dataSources": [ "GGASUAT_PB_AppSuiteweb.sde", "GGASUAT_PB_AppSuite.sde", "GELECUAT_PB_AppSuiteweb.sde", "GELECUAT_PB_AppSuite.sde", "GELECUAT_PB_sde.sde", "GGASUAT_PB_sde.sde", "GISLNDUT_AppSuiteweb.sde", "GGASUAT_ED_gisdwcro.sde" ],
+      "dataSources": [
+        "GGASUAT_PB_AppSuiteweb.sde",
+        "GGASUAT_PB_AppSuite.sde",
+        "GELECUAT_PB_AppSuiteweb.sde",
+        "GELECUAT_PB_AppSuite.sde",
+        "GELECUAT_PB_sde.sde",
+        "GGASUAT_PB_sde.sde",
+        "GISLNDUT_AppSuiteweb.sde",
+        "GGASUAT_ED_gisdwcro.sde"
+      ],
       "AppSuiteSERVER": "GPPAFMW2"
-
     },
     "TRN": {
       "GCXAppPath": "\\\\gtrafmw1\\d$\\Program Files (x86)\\Schneider Electric\\AppSuite Web\\Default\\REST Elements\\Sites",
@@ -1425,7 +1763,6 @@
           "agsConnection": "GTRWEBA1_AppSuite.ags"
         },
         "hostingServer": {
-
           "webAdaptorserver": "AppSuite",
           "agsConnection": "GTRWEBA1_Server.ags"
         },
@@ -1438,12 +1775,17 @@
           "agsConnection": "GTRWEBA1_AppSuite.ags"
         }
       },
-      "geocodingServer": "https://gtrweba1.companyName.net/server/rest/services/Locator/companyNameAbbr_Geocoder/GeocodeServer",
-      "webAdaptorPortal": "portal",
-      "dataSources": [ "GGASTRN_PB_AppSuiteweb.sde", "GGASTRN_PB_AppSuite.sde", "GELECTRN_PB_AppSuiteweb.sde", "GELECTRN_PB_AppSuite.sde", "GELECTRN_PB_sde.sde", "GGASTRN_PB_sde.sde", "NYSLNDTS_PB_AppSuiteweb.sde", "GGASTRN_PB_gisdwcro.sde" ],
+      "dataSources": [
+        "GGASTRN_PB_AppSuiteweb.sde",
+        "GGASTRN_PB_AppSuite.sde",
+        "GELECTRN_PB_AppSuiteweb.sde",
+        "GELECTRN_PB_AppSuite.sde",
+        "GELECTRN_PB_sde.sde",
+        "GGASTRN_PB_sde.sde",
+        "NYSLNDTS_PB_AppSuiteweb.sde",
+        "GGASTRN_PB_gisdwcro.sde"
+      ],
       "AppSuiteSERVER": "GTRAFMW1"
-
     }
   }
-
 }

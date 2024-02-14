@@ -71,6 +71,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Images\green.png" />
+    <Content Include="Images\red.png" />
+    <Content Include="Images\yellow.png" />
     <Content Include="MyGridView.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
